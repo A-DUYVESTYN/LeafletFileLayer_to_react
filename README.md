@@ -4,8 +4,11 @@
 Create a custom component where load leaflet file layer library loads after installing and importing it along with togeojson library.
 
 Therefore install and import the two libraries
-  import togeojson from 'togeojson'
-  import fileLayer from 'leaflet-filelayer'
+
+import togeojson from 'togeojson'
+
+import fileLayer from 'leaflet-filelayer'
+
 
 call fileLayer(null, L, togeojson) to be able to use L.Control.fileLayerLoad (Source)
 
